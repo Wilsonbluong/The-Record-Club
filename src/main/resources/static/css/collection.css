@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+	height: auto;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+    background: #659999;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.nav {
+    margin: 0px;
+    padding:10px 10px 10px 20px;
+}
+
+.nav ul {
+	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.nav li {
+    display: inline-block;
+    margin: auto;
+    vertical-align: bottom;
+    color:black;
+    background-color: white;
+    border: 1px black solid;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin: 5px;
+    height: 15px;
+}
+
+
+.nav a {
+	text-decoration: none;
+}
+
+li:hover {
+  color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  background:#fff;
+}
+
+
+.main {
+	display: flex;
+	justify-content: center;
+}
+
+.title {
+	font-family: 'Mr Dafoe', cursive;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	font-size: 100px;
+}
+
+th, td { 
+   	width:400px; 
+    text-align:center; 
+    padding-bottom: 10px;
+}
+
+.song {
+	text-decoration: none;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+}
+
+.artist {
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+}
